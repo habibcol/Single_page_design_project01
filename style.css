@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #5FC3E4, #E55D87);
+}
+
+.menu{
+    
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20 px;
+    border: 1px soli transparent;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+ul li a:hover{
+    background-color: #ff83e0;
+    color: #ffffff; 
+    border-radius: 2px;
+}
+ul li.active a{
+    background-color:#ff83e0;
+    color: #ffffff; 
+}
+.intro{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 27%;
+    transition: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+button{
+    float: right;
+    margin-top: -45px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: #5FC3E4;
+    border: 1px solid #5FC3E4;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: rgb(86, 250, 81);
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px){
+    li {
+        display: block;
+        margin: 10px;
+        overflow: hidden;
+        font-size: 20px;
+    }
+    button{
+        float: right;
+        margin-top: -187px;
+        margin-right: 10px;
+        border-radius: 5px;
+        background: #5FC3E4;
+        border: 1px solid rgb(1, 102, 40);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding: 5px 15px;
+        text-decoration: none;
+        transition: 0.6s ease;
+    }
+    .intro{
+        font-size: 20px;
+        top: 40%;
+        left: 20%;
+    }
+}
