@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.top-rib{
+    height: 84px;
+    background: #4267b2;
+    overflow: hidden;
+}
+.top-rib .menubar{
+    background-color: #4267b2;
+    height: 78px;
+    margin: 0 184.5px;
+    padding: 13px 0 0;
+}
+h1{
+    margin-top: 8px;
+    color: white;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn{
+    background: #4267b2;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #244380;
+}
+.btn a{
+   text-decoration: none;
+   color: white;
+   font-weight: 100; 
+}
+.btn:hover{
+    cursor: pointer;
+    background: #244380;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    padding: 0px 0px 2px 14px;
+    color: white;
+    font-size: 12px;
+}
+.email, .pass{
+    border: none;
+}
+.gradiant{
+    background: linear-gradient(white, #D3D8E8);  
+    height: 595.5px;
+    width: 1349px;
+}
+.mid-wrap{
+    background-color: transparent;
+    height: 595.5px;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.left-part{
+    width: 450px;
+    height: 58px;
+    background-color: transparent;
+    margin: 40px 0px 0px;
+}
+.left-part p{
+    font-size: 20px;
+    color: #4267b2;
+}
+.left-part img{
+    margin-top: 6px;
+    height: 195px;
+    width: 537px;
+}
+
+.right-part .texts{
+    padding: 20px 0px;
+    height: 118px;
+    width: 400px;
+    background-color: transparent;
+}
+.right-part .texts h1{
+    padding: 0;
+    margin: 0px 0px 5px;
+    color: #333333;
+    font-size: 36px;
+}
+.right-part .texts p{
+    font-size: 19px;
+}
+.right-part .form{
+    background-color: transparent;
+    height: 477.5px;
+    width: 400px;
+    position: relative;
+}
+.form .name{
+    display: flex;
+    justify-content: space-between;
+}
+.form .name input{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 18px;
+    width: 194px;
+}
+.form .mobile{
+    padding: 10px 0px;
+}
+.form .pwd{
+    padding-bottom: 10px;
+}
+.form .mobile input, .form .pwd input{
+    height: 39px;
+    width: 399px;
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.form .dob{
+    color: #90949C;
+    margin: 10px 0px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.date-select select{
+    height: 30px;
+    width: 58px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.form .gender p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #90949C;
+    margin: 10px 0px 5px;
+}
+.gender .gen-select input{
+    height: 13px;
+    width: 13px;
+    margin: 3px 3px 0px 5px;
+}
+.gender .gen-select label{
+    font-size: 18px;
+    padding: 0px 0px 0px 3px;
+}
+.text-bottom{
+    height: 42px;
+    width: 399px;
+}
+.text-bottom p{
+    height: 42px;
+    width: 316px;
+    color: #777777;
+    font-size: 11px;
+    margin: 11px 0px;
+}
+.text-bottom p a{
+    text-decoration: none;
+}
+.sign-btn{
+    height: 59px;
+    width: 400px;
+}
+.sign-btn button{
+    height: 39px;
+    width: 194px;
+    color: #ffffff;
+    background: #69A74E;
+    margin: 10px 0px;
+    padding: 7px 20px;
+    font-size: 19px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.page p{
+    width: 400px;
+    height: 33px;
+    font-size: 13px;
+    margin: 10px 0px 0px;
+    padding: 15px 0px 0px;
+    font-weight: bold;
+    color: #666666;
+}
+.page p a{
+    text-decoration: none;
+}
+.language{
+    list-style: none;
+    height: 28px;
+    width: 980px;
+    padding: 8px 0px 0px;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid gray;
+}
+.footer .language li a{
+    text-decoration: none;
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+}
+.plus{
+    margin-left: 5px;
+}
+.list{
+    list-style: none;
+    height: 57px;
+    width: 1000px;
+    padding: 0px;
+    /* margin: 0px 0px 0px -20px; */
+    margin: auto;
+}
+.list li{
+    padding: 0px 0px 0px 20px;
+    display: inline-block;
+    justify-content: flex-start;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.copyright{
+    height: 14px;
+    width: 980px;
+    margin: auto;
+}
+.copyright p{
+    font-size: 11px;
+    columns: #737373;
+    margin: 10px 0px;
+}
