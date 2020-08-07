@@ -6,8 +6,19 @@
 body{
     font-family: 'Roboto', sans-serif, helvetica;
 }
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #f4086e;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background: #ff9dc8;
+  }
 .wrap{
-    width: 80vw;
+    width: 80%;
     height: 100vh;
     margin: auto;
     padding: 0px 0px 20px 0px ;
@@ -41,9 +52,6 @@ body{
     top: 8px;
     color: #9c9c9c;
 }
-.menu{
-
-}
 .list-menu{
     list-style: none;
     display: flex;
@@ -61,13 +69,16 @@ body{
     color: #000000;
 }
 .large-ad{
-    width: inherit;
+    width: 80vw;
     height: 500px;
     background: #fceae9;
     border-radius: 30px;
     margin: 30px 0px 0px;
     display: flex;
     align-items: center;
+}
+.tv{
+    padding: 0pc 5pc 0px 0px;
 }
 .left-item{
     margin: 50px;
@@ -91,9 +102,7 @@ body{
     font-weight: bold;
     padding: 10px;
 }
-.tv{
-    padding: 0pc 5pc 0px 0px;
-}
+
 .cat{
     margin: 10px 0px;
 }
@@ -262,4 +271,52 @@ a{
 .my-text{
     text-align: center;
     padding: 0px 0px 20px;
+}
+
+@media (max-width: 720px){
+    .top-section{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .list-menu{
+        padding: 15px;
+    }
+    .tv{
+        width: 100%;
+        height: auto;
+        order: -1
+    }
+    .large-ad{
+        width: 500px;
+        height: 700px;
+        margin: auto;
+        flex-direction: column;  
+    }
+    .items-category{
+        width: 500px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    .watch, .bag, .shoe{
+        height: 80px;
+        width: 150px;
+    }
+    .watch img, .bag img, .shoe img{
+        height: 70px;
+        margin-right: 10px;
+    }
+    .shoe img{
+        margin-left: -20px;
+    }
+    .tag{
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    .product-shoe,.product-backpac{
+        flex-direction: column;
+    }
 }
